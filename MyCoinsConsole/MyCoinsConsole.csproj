@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>mycc</AssemblyName>
+    <RootNamespace>MyCoinsConsole</RootNamespace>
+    <StartupObject>MyCoinsConsole.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bittrex.Net" Version="1.3.9" />
+    <PackageReference Include="ConsoleTables" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
